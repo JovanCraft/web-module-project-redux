@@ -15,6 +15,8 @@ const Movie = (props) => {
         push('/movies')
     }
 
+
+
     return(<div className="modal-page col">
         <div className="modal-dialog">
             <div className="modal-content">
