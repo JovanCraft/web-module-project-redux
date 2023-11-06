@@ -17,11 +17,11 @@ In this project, you take a fairly complex application used to search a movie da
 
 ## Instructions
 ### Task 1: Project Set Up
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-redux`
-* [ ] Download project dependencies by running `npm install``
-* [ ] Start up the app using `npm start`
+* [x] Create a forked copy of this project.
+* [x] Clone your OWN version of the repository in your terminal
+* [x] cd into the project base directory `cd web-module-project-redux`
+* [x] Download project dependencies by running `npm install``
+* [x] Start up the app using `npm start`
 
 ### Task 2: Project Requirements
 #### Setup Redux
@@ -79,7 +79,7 @@ In this project, you take a fairly complex application used to search a movie da
 
 1. Add in reducer cases, action creators and event handler code for the following actions:
   - toggleFavorites : Switches the displayFavorites state value between true and false. When displayFavorites is true, the favorite button does not show on the Movie page.
-  
+
   - addFavorites: Adds in a new movie object into the favorites list.
   - removeFavorite: Removes a movie Object from the favorites list with an id passed in.
 
