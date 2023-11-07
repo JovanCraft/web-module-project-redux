@@ -10,10 +10,10 @@ import MovieHeader from './MovieHeader';
 
 import AddMovieForm from './AddMovieForm';
 import FavoriteMovieList from './FavoriteMovieList';
-import rootReducer from "../reducers";
+
 
 const App = props => {
-  const displayFavorites = true;
+  const { displayFavorites } = props;
 
   return (
     <div>
@@ -51,7 +51,7 @@ const App = props => {
 
 const mapStateToProps = state => {
   return {
-    displayFavorites: state.favoriteReducer.displayFavorites
+    displayFavorites: state.favoritesReducer.displayFavorites
   }
 }
 

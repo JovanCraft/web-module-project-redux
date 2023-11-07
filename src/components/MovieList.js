@@ -2,11 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux'
 import MovieListItem from './MovieListItem';
 import MovieFooter from './MovieFooter';
-import rootReducer from '../reducers';
+import FavoriteMovieList from './FavoriteMovieList'
 
 
 const MovieList = (props)=> {
-    const movies = [];
+    const { movies } = props;
 
     return (
         <div className="col">
