@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { useParams, useHistory } from 'react-router-dom';
 import { deleteMovie } from '../actions/movieActions';
+import rootReducer from '../reducers';
 
 const Movie = (props) => {
     const { id } = useParams();
@@ -58,7 +59,8 @@ const Movie = (props) => {
 
 const mapStateToProps = state => {
     return {
-        movies: state.movies
+        movies: state.movieReducer.movies,
+        displayFavorites: state.favoritesReducer.displayFavorites
     }
 }
 
